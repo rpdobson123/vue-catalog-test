@@ -17,7 +17,7 @@ export default {
 a {
   width: 100vw;
   left: 0;
-  bottom: 18px;
+  top: 18px;
   position: absolute;
   color: #42b983;
 }
