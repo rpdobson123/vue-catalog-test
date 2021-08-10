@@ -1,4 +1,6 @@
-# my-project
+See it in action: https://fathomless-ocean-40502.herokuapp.com/
+
+# Catalog (Learning Vue)
 
 ## Project setup
 ```
@@ -20,5 +22,3 @@ yarn build
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
