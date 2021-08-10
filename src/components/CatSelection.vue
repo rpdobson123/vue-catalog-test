@@ -24,14 +24,17 @@
 import CatContainer from "./CatContainer.vue";
 import CatFacts from "./CatFacts.vue";
 
+import Sicily from "../assets/sicily.png";
+import Bella from "../assets/bella.png";
+
 export default {
   name: "CatSelection",
   data: function() {
     return {
       selectedCatName: null,
       cats: [
-        { catImg: "sicily.png", catName: "Sicily" },
-        { catImg: "bella.png", catName: "Bella" },
+        { catImg: Sicily, catName: "Sicily" },
+        { catImg: Bella, catName: "Bella" },
       ],
     };
   },

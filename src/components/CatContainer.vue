@@ -6,7 +6,7 @@
       selectedCatName && selectedCatName !== catName && 'unselected',
     ]"
   >
-    <img :alt="catName" :src="catImg" />
+    <img :src="catImg" />
     <p>{{ catName }}</p>
   </div>
 </template>
@@ -18,6 +18,11 @@ export default {
     selectedCatName: String,
     catImg: String,
     catName: String,
+  },
+  data() {
+    return {
+      publicPath: process.env.BASE_URL,
+    };
   },
 };
 </script>
